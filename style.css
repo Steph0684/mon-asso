@@ -1,0 +1,16 @@
+.logo
+{
+    float:left; margin:0 10px 0 20px;
+}
+#menu{
+    color:darkgreen;
+}
+h2{
+    color:brown;
+}
+#tête{
+    background-image:url(Images/bandeau.jpg)
+}
+h1{
+    color:chartreuse
+}
