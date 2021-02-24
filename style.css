@@ -1,29 +1,54 @@
 .logo
 {
-    float:left; margin:0 10px 0 20px;
+    float:CENTER; margin:0 0px 0 0px;
 }
-#menu{
-    color:white;
-    display:inline-block;
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
-h2{
-    color:white
+header{
+    text-align: center;
 }
 h1{
-    color:chartreuse
+    color:steelblue
 }
+nav li{
+    display: inline;
+    color:white;
+    text-decoration: underline;
+}
+nav{
+    background-color:lightgrey;
+}
+h2{
+    color:thistle}
 #tout
 { 
 background-image: url(Images/fond.jpg);
 background-repeat: no-repeat;
 height: 100%;
 background-position: center;
-background-size: cover;
+background-size:100%;
 }
-#tête{
-    background-image: url(Images/bandeau.jpg);
+p{
+    color:white;
 }
 #pied{
-    color:thistle
+    text-align: left;
 }
-
+footer p{
+    text-align:center;
+    color:lime;
+}
+.inline{
+    display:inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+a:hover{
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
