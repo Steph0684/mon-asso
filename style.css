@@ -17,21 +17,15 @@ nav li{
     text-decoration: underline;
 }
 nav{
-    background-color:lightgrey;
+    background-color:greenyellow;
 }
 h2{
-    color:thistle}
-.tout
-{ 
-background-image: url(Images/fond.jpg);
-background-repeat: no-repeat;
-height: auto;
-background-position: center;
-background-size:100%;
-display:inline-block;
+    color:black;    
+    text-align:center;
 }
-p{
-    color:lime;
+p , .liste-conseils , .liste-puces{
+    color:green;
+    font-size:16px;
 }
 .inline{
     display:inline-block;
@@ -41,7 +35,7 @@ p{
     text-align: center;
 }
 a:hover{
-    color:orange;
+    color:rgb(92, 65, 16);
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
@@ -50,11 +44,11 @@ a:hover{
     display: block;
     position:relative;
     text-align:center;
-    color:limegreen;
+    color:green;
 }
 .petit-logo{
     height:30px;
-    float:left;
+    float:auto;
     margin:auto;
 }
 .logo-action{
@@ -62,8 +56,49 @@ a:hover{
     width: 50px;
     margin:auto;
 }
-.logo-actu{
+.logo-conseils{
     height: 40px;
     width: 40px;
     margin:auto;
+}
+.butine{
+    height:300px;
+    width:300px;
+    display:block;
+    margin :auto
+}
+h3{
+    color:grey;
+}
+.titre-reine , .titre-plage{
+    text-align: center;
+}
+.logo-contact{
+    height: 40px;
+    width: 40px;
+    margin:auto;
+}
+.tour-eiffel{
+    height:300px;
+    width:400px;
+    display:block;
+    margin :auto; 
+}
+.sous-titre-reine , .sous-titre-plage{
+    text-align: center;
+}
+.plage1{
+   height:300px;
+    width:700px;
+    display:block;
+    margin :auto;  
+}
+.corps
+{ 
+background-image: url(Images/fond4.jpg);
+background-repeat: no-repeat;
+height: auto;
+background-position: center;
+background-size:100%;
+display:inline-block;
 }
