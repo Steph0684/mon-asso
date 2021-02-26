@@ -7,7 +7,6 @@ body{
 }
 .header{
     text-align: center;
-    background-color:greenyellow
 }
 .title-important{
     color:steelblue
@@ -93,12 +92,7 @@ h3{
     display:block;
     margin :auto;  
 }
-.corps
-{ 
-background-image: url(Images/fond4.jpg);
-background-repeat: no-repeat;
-height: auto;
-background-position: center;
-background-size:100%;
-display:inline-block;
+*{
+    background-color:khaki
 }
+
