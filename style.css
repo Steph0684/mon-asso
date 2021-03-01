@@ -1,50 +1,43 @@
+
+                                                            /* Body ==> Header */
 .logo
 {
     float:CENTER; margin: 0px 0 0px;
 }
-body{
-    font-family:Georgia, 'Times New Roman', Times, serif
+.title-important{
+    color:steelblue
 }
 .header{
     text-align: center;
 }
-.title-important{
-    color:steelblue
+
+
+                                                            /* Body ==> Nav */
+
+                                                            /* Body */
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:khaki
 }
-nav li{
-    display: inline;
-    text-decoration: underline;
-}
-nav{
-    background-color:greenyellow;
-}
+
+
+                                                            /* Les titres et sous-titres */
 h2{
-    color:black;    
+    color:red;  
     text-align:center;
 }
-p , .liste-conseils , .liste-puces{
-    color:green;
-    font-size:16px;
+h3{
+    color:grey;
 }
-.inline{
-    display:inline-block;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
+.sous-titre-reine , .sous-titre-plage{
     text-align: center;
 }
-a:hover{
-    color:rgb(92, 65, 16);
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 1px;
+h4{
+    color:red;
+    padding:10px;
 }
-.adresse , .contact , .titre-coordonnées{
-    display: block;
-    position:relative;
-    text-align:center;
-    color:green;
-}
+
+                                                            /* Les Images */
 .petit-logo{
     height:30px;
     float:auto;
@@ -60,22 +53,17 @@ a:hover{
     width: 40px;
     margin:auto;
 }
-.butine{
+.img-thumbnail{
     height:300px;
     width:300px;
     display:block;
     margin :auto
 }
-h3{
-    color:grey;
-}
-.titre-reine , .titre-plage{
-    text-align: center;
-}
-.logo-contact{
-    height: 40px;
-    width: 40px;
-    margin:auto;
+.plage{
+    height:300px;
+    width:700px;
+    display:block;
+    margin :auto; 
 }
 .tour-eiffel{
     height:300px;
@@ -83,16 +71,33 @@ h3{
     display:block;
     margin :auto; 
 }
-.sous-titre-reine , .sous-titre-plage{
-    text-align: center;
+.logo-contact{
+    height: 40px;
+    width: 40px;
+    margin:auto;
 }
-.plage1{
-   height:300px;
-    width:700px;
-    display:block;
-    margin :auto;  
+
+                                                        /* Paragraphes, listes et liens */
+
+p , .liste-conseils , .liste-puces{
+    color:black;
+    font-size:16px;
 }
-*{
-    background-color:khaki
+a:hover{
+    color:rgb(92, 65, 16);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
+.navbar-dark
+
+                                                            /* Footer */
+.adresse , #contact , .titre-coordonnées{
+    display: block;
+    position:relative;
+    text-align:center;
+    color:green;
+}
+
+
 
