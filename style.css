@@ -1,5 +1,4 @@
-
-                                                            /* Body ==> Header */
+/* Body ==> Header */
 .logo
 {
     float:CENTER; margin: 0px 0 0px;
@@ -14,12 +13,13 @@
 
                                                             /* Body ==> Nav */
 
+
                                                             /* Body */
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:khaki
+    background-color:khaki;
+    margin:16px;
 }
-
 
                                                             /* Les titres et sous-titres */
 h2{
@@ -98,6 +98,3 @@ a:hover{
     text-align:center;
     color:green;
 }
-
-
-
